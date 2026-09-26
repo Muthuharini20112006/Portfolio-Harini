@@ -529,25 +529,25 @@ nav a.active {
 .profile-inner {
 
     width: 100%;
-
     height: 100%;
 
     border-radius: 50%;
-
     border: 8px solid var(--bg);
-
-    background:
-        linear-gradient(
-            135deg,
-            rgba(124,58,237,0.15),
-            rgba(168,85,247,0.08)
-        );
+    overflow: hidden;
 
     display: flex;
-
     align-items: center;
-
     justify-content: center;
+
+}
+
+.profile-inner img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
 
 }
 
@@ -1853,28 +1853,22 @@ footer p {
 
     }
 
-
-    .profile {
-
-        width: 230px;
-
-        height: 230px;
-
-    }
-
-
-    .profile-inner i {
-
-        font-size: 80px;
-
-    }
-   .profile-initials {
-    font-size: 90px;
-    font-weight: 800;
-    color: var(--primary);
-    letter-spacing: 4px;
+    .profile{
+    width:280px;
+    height:280px;
+    border-radius:50%;
+    overflow:hidden;
+    border:6px solid #2463ff;
+    box-shadow:0 0 20px #2463ff55;
 }
 
+.profile img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+    display:block;
+}
     .skills-container,
     .projects-container,
     .certificates {
@@ -2119,13 +2113,11 @@ footer p {
 
         <div class="profile">
 
-
             <div class="profile-inner">
-
-                <p style="font-family: 'Times New Roman', Times, serif ; ">MH</p>
-
+                <img src="./harini professional.jpeg" alt="Muthuharini">
             </div>
 
+        </div>
 
         </div>
 
@@ -3400,7 +3392,7 @@ footer p {
 
 
     </div>
-11
+
 
     <p>
 
